@@ -1,0 +1,8 @@
+<div class="tracking-area" (click)="toggleTracking()">
+  <h1 class="main__title">Mouse-tracker</h1>
+  <app-mouse-coordinates
+    [position]="position$ | async"
+    [tracking]="tracking$ | async"
+  ></app-mouse-coordinates>
+</div>
+

@@ -1,27 +1,34 @@
-# MouseTracker
+# Mouse Tracker Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+## Description
 
-## Development server
+This project implements mouse movement tracking functionality using Angular, RxJS, and NgRx. 
+It includes a service for handling mouse events and managing the tracking state.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+1. Clone the Repository
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   ```bash
+   git clone https://github.com/vlesia/mouse-tracker
+   ```
 
-## Build
+2. Navigate to the project directory:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   cd mouse-tracker
+   ```
 
-## Running unit tests
+3. Install dependencies:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+### Running the App
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To run the application locally, use the following command:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   ng serve
+   ```
